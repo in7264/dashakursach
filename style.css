@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.filters {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.car-list {
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.car-card {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.car-image {
+    max-width: 40%;
+    height: auto;
+}
+
+.car-description {
+    margin-top: 10px;
+}
+
+.car-price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.car-info {
+    margin-left: 5px;
+}

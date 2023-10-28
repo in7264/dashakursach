@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Система обліку продажу автомобілів</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="filters">
+            <h2>Фільтри</h2>
+    
+            <div>
+                <label for="brandFilter">Марка:</label>
+                <select id="brandFilter">
+                    <option value="all">Всі</option>
+                    <option value="Audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <!-- Додайте інші марки сюди -->
+                </select>
+            </div>
+        
+            <div>
+                <label for="yearFilter">Рік випуску:</label>
+                <select id="yearFilter">
+                    <option value="all">Всі</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <!-- Додайте інші роки сюди -->
+                </select>
+            </div>
+        
+            <div>
+                <label for="priceFilter">Ціна:</label>
+                <input type="number" id="priceFilter" placeholder="Введіть ціну">
+            </div>
+            
+            <div>
+                <button id="applyFilters">Застосувати фільтри</button>
+            </div>        </div>
+        <div class="car-list">
+            <!-- Тут буде список автомобілів -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
