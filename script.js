@@ -21,7 +21,7 @@ const carsData = [
         city: "Львів",
         transmission: "автомат",
     },
-    // Додайте інші автомобілі
+    // інші автомобілі
 ];
 
 const carList = document.querySelector(".car-list");
