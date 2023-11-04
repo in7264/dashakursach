@@ -5,7 +5,7 @@
 }
 
 .filters {
-    width: 22%;
+    width: 28%;
     padding: 10px;
     border: 1px solid #ccc;
 }
@@ -16,7 +16,7 @@
 }
 
 .car-list {
-    width: 77%;
+    width: 71%;
     display: flex;
     flex-wrap: wrap;
 }
