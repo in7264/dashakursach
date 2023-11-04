@@ -290,6 +290,6 @@ function applyFilters() {
     });
 }
 
-applyFiltersButton.addEventListener("click", populateCarList);
+applyFiltersButton.addEventListener("click", applyFilters);
 
 populateCarList();
