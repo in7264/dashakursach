@@ -10,6 +10,11 @@
     border: 1px solid #ccc;
 }
 
+.filter {
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
 .car-list {
     width: 78%;
     display: flex;

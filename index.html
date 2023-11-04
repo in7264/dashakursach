@@ -9,33 +9,52 @@
     <div class="container">
         <div class="filters">
             <h2>Фільтри</h2>
-    
-            <div>
+            <div class="filter">
                 <label for="brandFilter">Марка:</label>
                 <select id="brandFilter">
-                    <option value="all">Всі</option>
-                    <option value="Audi">Audi</option>
-                    <option value="BMW">BMW</option>
+                    <option value="all">Усі</option>
                 </select>
             </div>
         
-            <div>
+            <div class="filter">
                 <label for="yearFilter">Рік випуску:</label>
                 <select id="yearFilter">
+                    <option value="all">Усі</option>
+                </select>
+            </div>
+            <div class="filter"> 
+                <label for="priceFilterMin">Мінімальна ціна:</label>
+                <input type="number" id="priceFilterMin" placeholder="Мін. ціна">
+            </div>
+        
+            <div class="filter"> 
+                <label for="priceFilterMax">Максимальна ціна:</label>
+                <input type="number" id="priceFilterMax" placeholder="Макс. ціна">
+            </div>
+        
+            <div class="filter"> 
+                <label for="mileageFilterMin">Мінімальний пробіг:</label>
+                <input type="number" id="mileageFilterMin" placeholder="Мін. пробіг">
+            </div>
+        
+            <div class="filter"> 
+                <label for="mileageFilterMax">Максимальний пробіг:</label>
+                <input type="number" id="mileageFilterMax" placeholder="Макс. пробіг">
+            </div>
+        
+            <div class="filter"> 
+                <label for="transmissionFilter">Тип трансмісії:</label>
+                <select id="transmissionFilter">
                     <option value="all">Всі</option>
-                    <option value="2018">2018</option>
-                    <option value="2019">2019</option>
+                    <option value="автомат">Автомат</option>
+                    <option value="механіка">Механіка</option>
+                    <!-- Додайте інші типи трансмісії сюди -->
                 </select>
             </div>
         
-            <div>
-                <label for="priceFilter">Ціна:</label>
-                <input type="number" id="priceFilter" placeholder="Введіть ціну">
-            </div>
-            
-            <div>
-                <button id="applyFilters">Застосувати фільтри</button>
-            </div>        </div>
+            <button id="applyFilters">Застосувати фільтри</button>
+        </div>
+        
         <div class="car-list">
             <!-- Тут буде список автомобілів -->
         </div>
